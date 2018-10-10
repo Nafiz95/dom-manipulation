@@ -25,5 +25,12 @@ function changeBGclr(event)
         body.style.backgroundColor='green';
     }
 }
+//Task 2c
+var ggl=document.getElementById("google");
+ggl.addEventListener("click",function(event)
+{
+    window.location.href = "https://www.google.com/";
 
+}
+);
 /* Task 4 using jQuery */
