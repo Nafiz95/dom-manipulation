@@ -12,6 +12,18 @@ textBtn.addEventListener("click",function(event)
     task2.innerHTML="<p>Hello World</p>";
     task2.appendChild(para);
 });
-
+//Task 2b
+function changeBGclr(event)
+{
+    var body=document.getElementsByTagName('body')[0];
+    if(event.target.innerText=="RED")
+    {
+        body.style.backgroundColor='red';
+    }
+    if (event.target.innerText=="GREEN")
+    {
+        body.style.backgroundColor='green';
+    }
+}
 
 /* Task 4 using jQuery */
